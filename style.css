@@ -1,0 +1,641 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+h2 {
+  letter-spacing: 2px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.slick-prev::before, .slick-next::before {
+  color: #000;
+  font-size: 30px;
+}
+
+.slick-arrow {
+  z-index: 2;
+}
+
+.slick-prev {
+  left: 20px;
+}
+
+.slick-next {
+  right: 20px;
+}
+
+.slick-dots {
+  bottom: -60px;
+}
+
+.inner {
+  max-width: 1080px;
+  margin: auto;
+}
+
+.head-subtitle {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #8f8f88;
+  line-height: 30px;
+}
+
+/* メインヴィジュアル */
+.mv {
+  background-color: #fafbf6;
+  height: 480px;
+  border-bottom: 1px solid #dcdcdc;
+  padding-top: 70px;
+  padding-bottom: 10px;
+}
+.mv-slider li {
+  margin: 0 10px;
+}
+.mv-slider img {
+  height: auto;
+  width: 100%;
+}
+
+/* インフォメーション */
+.top-information {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.top-information__contents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-information__tag {
+  background-color: #e82e2e;
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.top-information img {
+  width: 20px;
+  padding-right: 5px;
+}
+
+.top-information__tag p{
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.top-information__text {
+  font-size: 14px;
+  font-weight: bold;
+  color: #808080;
+  text-decoration: underline;
+  text-decoration-color: #808080;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+/* 商品を探す */
+.top-product {
+  background-color: #fafbf6;
+  padding-top: 90px;
+  padding-bottom: 60px;
+  text-align: center;
+  border-top: 1px solid #dcdcdc ;
+}
+
+.top-product__category-title {
+  font-size: 15px;
+}
+
+.top-product__category-type {
+  display: flex;
+  align-items: baseline;
+  margin-top: 40px;
+}
+
+.top-product__category-type-list {
+  display: flex;
+}
+
+.top-product__category-type-list li {
+  background-color: #dfe1ac;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  height: 50px;
+  line-height: 50px;
+  width: 150px;
+  margin: 0px 20px;
+}
+
+.top-product__category-socks {
+  display: flex;
+  align-items: baseline;
+  margin-top: 30px;
+}
+.top-product__category-socks-list {
+  display: flex;
+  margin-left: 50px;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.top-product__category-socks-list li {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.top-product__category-scene {
+  display: flex;
+  align-items: baseline;
+  margin-top: 30px;
+}
+.top-product__category-scene-list {
+  display: flex;
+  margin-left: 10px;
+  width: 85%;
+  justify-content: space-between;
+}
+
+.top-product__category-scene-list li {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* シリーズ一覧 */
+.top-series {
+  background-color: #eeeee2;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.top-series__banner-list {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 20px 20px;
+  margin-top: 30px;
+}
+
+.top-series__banner img {
+  width: 490px;
+}
+
+.top-series__banner {
+  width: 50%;
+  padding: 15px 0px;
+}
+
+/* ピックアップ商品 */
+.top-pickup {
+  background-color: #fafbf6;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+.top-pickup__slider {
+  margin-top: 50px;
+  overflow: visible;
+}
+
+.top-pickup__slider li {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 10px;
+}
+
+.top-pickup__slider li:hover {
+  background-color: #fdfdfb;
+  box-shadow: 0px 0px 20px 5px rgba(184, 184, 184, 0.2);
+  text-decoration: underline;
+}
+
+.top-pickup img {
+  width: 220px;
+}
+
+.top-product__price-text {
+  width: 220px;
+  margin-top: 20px;
+}
+
+.top-pickup__category {
+  text-align: center;
+  background-color: #dfe1ac;
+  border-radius: 3px;
+  height: 28px;
+  width: 100px;
+  line-height: 28px;
+  font-size: 12px;
+  display: inline-block;
+  pointer-events: none;
+}
+
+.top-pickup__price {
+  color: #e82e2e;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: bold;
+  float: right;
+}
+
+.top-pickup__price span {
+  font-weight: normal;
+  font-size: 10px;
+}
+
+.top-pickup__text {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 26px;
+  width: 220px;
+  margin-top: 20px;
+}
+
+.top-pickup__viewmore {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.top-pickup__viewmore-btn {
+  background-color: #dfe1ac;
+  border-radius: 3px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 10px 30px;
+  box-shadow: 0px 1px #777545;
+}
+
+.top-pickup__viewmore p {
+  color: #d714ec;
+  font-weight: bold;
+  margin-left: 500px;
+}
+
+/* 新着お客様レビュー */
+.top-review {
+  background-color: #eeeee2;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+}
+
+.top-review__contents {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.top-review__contents-item {
+  background-color: #fff;
+  width: 45%;
+  padding: 15px;
+  margin: 10px;
+}
+
+.top-review__contents-item:hover {
+  background-color: #fdfdfb;
+  box-shadow: 0px 0px 10px 5px rgba(105, 105, 105, 0.2);
+
+}
+
+.top-review__contents-item a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.top-review__contents-item-left {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.top-review__contents-item-left img {
+  width: 140px;
+}
+
+.top-review__contents-item-right {
+  width: 70%;
+}
+
+.top-review__contents-item-right-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+
+.top-review__check-image {
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.top-review__star-image {
+  height: 15px;
+  
+}
+
+.top-review__reviewer-name {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.top-review__reviewer-coment {
+  font-size: 10px;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+
+.top-review__product-name {
+  font-size: 10px;
+  text-decoration: underline;
+  color: #808080;
+}
+
+.top-review__other-review {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.top-review__other-review a {
+  background-color: #f1f1ed;
+  color: #606052;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 15px 30px;
+  border-radius: 3px;
+  box-shadow: 0px 1px #dadbd0;
+}
+
+/* 新着情報 */
+.top-news {
+  background-color: #fafbf6;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+.top-news__contents {
+  display: flex;
+  margin-top: 50px;
+}
+
+.top-news__contents-item {
+  width: 20%;
+  margin: 0 20px;
+}
+
+.top-news__contents-item img {
+  width: 100%;
+}
+
+.top-news__date {
+  color: #939391;
+  font-weight: bold;
+}
+
+.top-news__category {
+  font-size: 12px;
+  border: 1px solid #000;
+  color: #939391;
+  font-weight: bold;
+  padding: 8px;
+  height: 10px;
+  line-height: 10px;
+}
+
+.top-news__date-category {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.top-news__title {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.top-news__list-page {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.top-news__list-page a {
+  background-color: #dfe1ac;
+  border-radius: 2px;
+  font-weight: bold;
+  padding: 10px 20px;
+  box-shadow: 0px 1px #b9bb8b;
+}
+
+/* 靴下の三笠について */
+.top-about {
+  background-color: #fafbf6;
+  border-top: 1px solid #d2d2d2;
+  padding-top: 90px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 70px;
+  text-align: center
+}
+
+.top-about__contents {
+  margin-top: 30px;
+}
+
+.top-about__contents-item {
+  padding: 0px 50px;
+}
+
+.top-about__contents-item img {
+  width: 110px;
+  margin-bottom: 25px;
+}
+
+.top-about td {
+  border-left: 1px solid #babc87;
+}
+
+.top-about__contents-item-title {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.top-about__contents-item-text {
+  text-align: left;
+  font-size: 12px;
+  color: #696967;
+  line-height: 25px;
+}
+
+.top-about__text {
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 60px;
+}
+
+/* お買い物ガイド */
+.guide {
+  background-color: #fafbf6;
+  border-top: 1px solid #d2d2d2;
+  padding-top: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 70px;
+}
+
+.guide__contents {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.guide__contents-item {
+  width: 23%;
+}
+.guide__contents-item h3 {
+  color: #777545;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.guide__contents-item img {
+  width: 35px;
+  vertical-align: bottom;
+  margin-right: 10px;
+}
+
+.guide__contents-item p {
+  color: #6d6d6b;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.guide__creditcard-icon-area {
+  width: 100PX;
+}
+
+.guide__contents-item table {
+  margin-bottom: 15px;
+}
+
+.guide__contents-item th {
+  border: 1px solid #000;
+  background-color: #fff;
+  padding: 2px 10px;
+  font-size: 14px;
+}
+
+.guide__contents-item td {
+  color: #6d6d6b;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.guide__btn {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.guide__btn img {
+  width: 25px;
+  vertical-align: bottom;
+  margin-right: 20px;
+  padding-left: 50px;
+}
+
+.guide__btn a {
+  background-color: #dfe1ac;
+  font-weight: bold;
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  box-shadow: 0px 1px #b9bb8b;
+}
+
+/* フッター */
+footer {
+  background-color: #eeeee2;
+  padding-top: 50px;
+  padding-bottom: 300px;
+}
+
+.footer__site-map {
+  margin: 0 auto;
+}
+
+.footer__site-map td{
+  border-left: 1px solid #000;
+  padding: 0px 30px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footer__bottom {
+  display: flex;
+  margin-top: 90px;
+  align-items: end;
+}
+
+.footer__logo {
+  margin-right: 90px;
+}
+
+.footer__logo p {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer__contact-tel {
+  margin-right: 90px;
+}
+
+.footer__contat-tel-text {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footer__contact-tel-number {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.footer__contact-tel img {
+  width: 25px;
+  margin-right: 5px;
+}
+
+.footer__contact-mail {
+  margin-bottom: 20px;
+}
+.footer__contact-mail p {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer__contact-mail a {
+  font-weight: bold;
+  color: #575757;
+  letter-spacing: 1px;
+  background-color: #f1f1ed;
+  padding: 10px 30px;
+  box-shadow: 0px 1px #dadbd0;
+  border-radius: 3px;
+}
