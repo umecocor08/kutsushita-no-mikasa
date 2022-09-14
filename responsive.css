@@ -1,0 +1,390 @@
+/* スマートフォン用 */
+
+@media all and (max-width: 670px) {
+    h2 {
+        font-size: 16px;
+    }
+    .head-subtitle {
+        font-size: 6px;
+    }
+
+
+    /* インフォメーション */
+
+    .top-information__contents {
+        display: block;
+    }
+    .top-information__tag {
+        width: 130px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .top-information__tag p {
+        font-size: 10px;
+    }
+    .top-information__text {
+        font-size: 10px;
+        margin: 0 auto;
+        text-align: center;
+    } 
+    
+
+    /* 商品を探す */
+    
+    .top-product {
+        display: none;
+    }
+    .top-product__smartphone {
+        display: block;
+        background-color: #fafbf6;
+        padding-top: 90px;
+        padding-bottom: 60px;
+        text-align: center;
+        border-top: 1px solid #dcdcdc ;
+      }
+      
+      .top-product__category-title-smartphone {
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      
+      .top-product__category-type-smartphone {
+        margin-top: 40px;
+      }
+      
+      .top-product__category-type-list-smartphone {
+        display: flex;
+      }
+      
+      .top-product__category-type-list-smartphone li {
+        background-color: #dfe1ac;
+        border-radius: 3px;
+        font-size: 10px;
+        font-weight: bold;
+        height: 30px;
+        line-height: 30px;
+        width: 150px;
+        margin: 0px 8px;
+      }
+      
+      .top-product__category-socks-smartphone {
+        margin-top: 30px;
+      }
+      .top-product__category-socks-list-smartphone {
+        display: flex; 
+        flex-wrap: wrap;
+      }
+      
+      .top-product__category-socks-list-smartphone li {
+        font-size: 10px;
+        font-weight: bold;
+        width: 33%;
+      }
+      
+      .top-product__category-scene-smartphone {
+        margin-top: 30px;
+      }
+      .top-product__category-scene-list-smartphone {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .top-product__category-scene-list-smartphone li {
+        font-size: 10px;
+        font-weight: bold;
+        width: 20%;
+      }
+
+
+      /* シリーズ一覧 */
+
+      .top-series__banner-list {
+        display: flex;
+      }
+      
+      .top-series__banner {
+        width: 50%;
+        padding: 5px;
+      }
+      .top-series__banner img {
+        width: 100%;
+      }
+
+
+      /* ピックアップ商品 */
+
+      .top-pickup {
+        display: none;
+      }
+      
+      .top-pickup__smartphone {
+        display: block;
+      }
+
+      .top-pickup-smartphone {
+        background-color: #fafbf6;
+        padding-top: 70px;
+        padding-bottom: 40px;
+      }
+     
+      .top-pickup__slider-smartphone {
+        margin-top: 50px;
+      }
+      
+      .top-pickup__slider-smartphone li {
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 10px;
+      }
+      
+      .top-pickup__slider-smartphone img {
+        width: 100%;
+      }
+      
+      .top-pickup__price-text-smartphone {
+        width: 100%;
+        margin-top: 20px;
+      }
+      
+      .top-pickup__category-smartphone {
+        text-align: center;
+        background-color: #dfe1ac;
+        border-radius: 3px;
+        height: 20px;
+        width: 80px;
+        line-height: 20px;
+        font-size: 8px;
+        display: inline-block;
+        pointer-events: none;
+      }
+      
+      .top-pickup__price-smartphone {
+        color: #e82e2e;
+        font-size: 10px;
+        line-height: 28px;
+        font-weight: bold;
+        float: right;
+      }
+      
+      .top-pickup__price-smartphone span {
+        font-weight: normal;
+        font-size: 10px;
+      }
+      
+      .top-pickup__text-smartphone {
+        font-size: 10px;
+        font-weight: bold;
+        line-height: 26px;
+        width: 220px;
+        margin-top: 20px;
+      }
+      
+      .top-pickup__viewmore-smartphone {
+        text-align: center;
+        margin-top: 100px;
+      }
+      
+      .top-pickup__viewmore-btn-smartphone {
+        background-color: #dfe1ac;
+        border-radius: 3px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        padding: 10px 30px;
+        box-shadow: 0px 1px #777545;
+      }
+      
+      .top-pickup__viewmore-smartphone p {
+        color: #d714ec;
+        font-weight: bold;
+        margin-left: 500px;
+      }
+
+
+      /* 新着お客様レビュー */
+
+      .top-review__contents-sma {
+        display: block;
+        justify-content: center;
+      }
+
+      .top-review__contents-item {
+        width: 100%;
+      }
+      .top-review__contents-item-left img {
+        width: 100px;
+    }
+      .top-review__reviewer-name {
+        font-size: 12px;
+      }
+
+
+      /* 新着情報 */
+
+      .top-news {
+        display: none;
+      }
+
+      .top-news__smartphone {
+        background-color: #fafbf6;
+        padding-top: 70px;
+        padding-bottom: 100px;
+        display: block;
+      }
+      
+      .top-news__contents-smartphone {
+        margin: 50px 20px 0px 20px;
+      }
+      
+      .top-news__contents-item-smartphone {
+        display: flex;
+        padding-bottom: 20px;
+      }
+      
+      .top-news__contents-item-smartphone img {
+        width: 100px;
+      }
+
+      .top-news__contents-item-right-smartphone {
+        margin-left: 20px;
+      }
+      
+      .top-news__date-smartphone {
+        color: #939391;
+        font-weight: bold;
+        font-size: 12px;
+      }
+      
+      .top-news__category-smartphone {
+        font-size: 10px;
+        border: 1px solid #000;
+        color: #939391;
+        font-weight: bold;
+        padding: 0px 5px;
+        height: 24px;
+        line-height: 24px;
+      }
+    
+    .top-news__contents-item-right-smartphone {
+        width: 100%;
+    }
+
+      .top-news__date-category-smartphone {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+      
+      .top-news__title-smartphone {
+        font-weight: bold;
+        font-size: 10px;
+      }
+      
+      .top-news__list-page-smartphone {
+        text-align: center;
+        margin-top: 50px;
+      }
+      
+      .top-news__list-page-smartphone a {
+        background-color: #dfe1ac;
+        border-radius: 2px;
+        font-weight: bold;
+        padding: 10px 20px;
+        box-shadow: 0px 1px #b9bb8b;
+      }
+
+
+      /* 靴下の三笠について */
+
+      .top-about {
+        display: none;
+      }
+
+      .top-about__smartphone {
+        display: block;
+        background-color: #fafbf6;
+        border-top: 1px solid #d2d2d2;
+        padding-top: 90px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 70px;
+        text-align: center
+      }
+      
+      .top-about__contents-smartphone {
+        margin-top: 30px;
+      }
+      
+      .top-about__contents-item-smartphone {
+        padding: 30px 0px;
+      }
+      
+      .top-about__contents-item-smartphone img {
+        width: 110px;
+        margin-bottom: 10px;
+      }
+      
+      .top-about__contents-item-smartphone {
+        border-top: 1px solid #babc87;
+      }
+      
+      .top-about__contents-item-title-smartphone {
+        font-size: 14px;
+        margin-bottom: 15px;
+      }
+      
+      .top-about__contents-item-text-smartphone {
+        text-align: center;
+        font-size: 12px;
+        color: #696967;
+        line-height: 25px;
+      }
+      
+      .top-about__text-smartphone {
+        font-weight: bold;
+        font-size: 12px;
+        margin-top: 30px;
+      }
+
+
+      /* お買い物ガイド */
+
+      .guide__contents {
+        display: block;
+      }
+
+      .guide__contents-item {
+        width: 100%;
+      }
+
+      .guide__contents-item h3 {
+        font-size: 14px;
+      }
+      
+      .guide__card-icon {
+        width: 25px;
+      }
+
+      .guide__creditcard-icon-area {
+        width: 50%;
+      }
+
+      .guide__contents-item th {
+        font-size: 10px;
+      }
+      /* フッター */
+
+
+      
+      
+}
+
+
+
+
+/* タブレット用 */
+
+@media all and (max-width: 1000px) {
+
+}

@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 a {
@@ -16,6 +17,14 @@ h2 {
   letter-spacing: 2px;
   line-height: 18px;
   text-align: center;
+}
+
+.head-subtitle {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #8f8f88;
+  line-height: 30px;
 }
 
 .slick-prev::before, .slick-next::before {
@@ -42,23 +51,17 @@ h2 {
 .inner {
   max-width: 1080px;
   margin: auto;
+  width: 100%;
 }
 
-.head-subtitle {
-  font-size: 12px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  color: #8f8f88;
-  line-height: 30px;
-}
 
 /* メインヴィジュアル */
+
 .mv {
   background-color: #fafbf6;
-  height: 480px;
   border-bottom: 1px solid #dcdcdc;
   padding-top: 70px;
-  padding-bottom: 10px;
+  padding-bottom: 50px;
 }
 .mv-slider li {
   margin: 0 10px;
@@ -68,7 +71,9 @@ h2 {
   width: 100%;
 }
 
+
 /* インフォメーション */
+
 .top-information {
   margin-top: 35px;
   margin-bottom: 35px;
@@ -107,7 +112,12 @@ h2 {
   display: inline-block;
 }
 
+
 /* 商品を探す */
+
+.top-product__smartphone {
+  display: none;
+}
 .top-product {
   background-color: #fafbf6;
   padding-top: 90px;
@@ -122,7 +132,7 @@ h2 {
 
 .top-product__category-type {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   margin-top: 40px;
 }
 
@@ -143,24 +153,24 @@ h2 {
 
 .top-product__category-socks {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   margin-top: 30px;
 }
 .top-product__category-socks-list {
   display: flex;
-  margin-left: 50px;
-  width: 70%;
+  margin-left: 65px;
   justify-content: space-between;
 }
 
 .top-product__category-socks-list li {
   font-size: 12px;
   font-weight: bold;
+  margin-right: 66px;
 }
 
 .top-product__category-scene {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   margin-top: 30px;
 }
 .top-product__category-scene-list {
@@ -175,7 +185,9 @@ h2 {
   font-weight: bold;
 }
 
+
 /* シリーズ一覧 */
+
 .top-series {
   background-color: #eeeee2;
   padding-top: 60px;
@@ -199,7 +211,12 @@ h2 {
   padding: 15px 0px;
 }
 
+
 /* ピックアップ商品 */
+.top-pickup__smartphone {
+  display: none;
+}
+
 .top-pickup {
   background-color: #fafbf6;
   padding-top: 70px;
@@ -208,7 +225,6 @@ h2 {
 
 .top-pickup__slider {
   margin-top: 50px;
-  overflow: visible;
 }
 
 .top-pickup__slider li {
@@ -227,7 +243,7 @@ h2 {
   width: 220px;
 }
 
-.top-product__price-text {
+.top-pickup__price-text {
   width: 220px;
   margin-top: 20px;
 }
@@ -285,7 +301,9 @@ h2 {
   margin-left: 500px;
 }
 
+
 /* 新着お客様レビュー */
+
 .top-review {
   background-color: #eeeee2;
   padding-top: 70px;
@@ -297,14 +315,14 @@ h2 {
   display: flex; 
   flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
+  margin-top: 30px;
 }
 
 .top-review__contents-item {
   background-color: #fff;
-  width: 45%;
+  width: 47%;
   padding: 15px;
-  margin: 10px;
+  margin: 15px;
 }
 
 .top-review__contents-item:hover {
@@ -316,7 +334,6 @@ h2 {
 .top-review__contents-item a {
   display: flex;
   align-items: center;
-  width: 100%;
 }
 
 .top-review__contents-item-left {
@@ -335,7 +352,7 @@ h2 {
 .top-review__contents-item-right-head {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   margin-bottom: 10px;
 }
 
@@ -382,7 +399,12 @@ h2 {
   box-shadow: 0px 1px #dadbd0;
 }
 
+
 /* 新着情報 */
+.top-news__smartphone {
+  display: none;
+}
+
 .top-news {
   background-color: #fafbf6;
   padding-top: 70px;
@@ -395,7 +417,7 @@ h2 {
 }
 
 .top-news__contents-item {
-  width: 20%;
+  width: 25%;
   margin: 0 20px;
 }
 
@@ -413,9 +435,9 @@ h2 {
   border: 1px solid #000;
   color: #939391;
   font-weight: bold;
-  padding: 8px;
-  height: 10px;
-  line-height: 10px;
+  padding: 0px 5px;
+  height: 24px;
+  line-height: 24px;
 }
 
 .top-news__date-category {
@@ -443,7 +465,12 @@ h2 {
   box-shadow: 0px 1px #b9bb8b;
 }
 
+
 /* 靴下の三笠について */
+
+.top-about__smartphone {
+  display: none;
+}
 .top-about {
   background-color: #fafbf6;
   border-top: 1px solid #d2d2d2;
@@ -489,7 +516,9 @@ h2 {
   margin-top: 60px;
 }
 
+
 /* お買い物ガイド */
+
 .guide {
   background-color: #fafbf6;
   border-top: 1px solid #d2d2d2;
@@ -505,7 +534,8 @@ h2 {
   margin-top: 50px;
 }
 .guide__contents-item {
-  width: 23%;
+  width: 25%;
+  padding: 10px;
 }
 .guide__contents-item h3 {
   color: #777545;
@@ -513,7 +543,7 @@ h2 {
   margin-bottom: 15px;
 }
 
-.guide__contents-item img {
+.guide__card-icon {
   width: 35px;
   vertical-align: bottom;
   margin-right: 10px;
@@ -526,7 +556,8 @@ h2 {
 }
 
 .guide__creditcard-icon-area {
-  width: 100PX;
+  width: 100%;
+  margin-top: 20px;
 }
 
 .guide__contents-item table {
@@ -567,7 +598,9 @@ h2 {
   box-shadow: 0px 1px #b9bb8b;
 }
 
+
 /* フッター */
+
 footer {
   background-color: #eeeee2;
   padding-top: 50px;
